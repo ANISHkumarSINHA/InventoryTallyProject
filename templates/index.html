@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Tally System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Inventory Tally System</h1>
+            <p>Real-time inventory detection and counting</p>
+        </header>
+        <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" alt="Video Feed" class="video-feed">
+        </div>
+        <footer>
+            <p>© 2025 InventoryTallyProject | @CapstoneProject</p>
+        </footer>
+    </div>
+</body>
+</html>
